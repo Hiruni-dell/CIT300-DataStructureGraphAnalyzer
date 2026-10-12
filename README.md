@@ -107,20 +107,23 @@ The program demonstrates search comparison counts and elapsed time. Elapsed time
 
 ## 8. Group Members, Responsibilities, and Contributions
 
-The assignment requires each member's responsibility and actual contribution to be documented. The responsibilities below are a proposed allocation aligned with the current code and the assignment's suggested roles. They must not be treated as proof of authorship. The current source code alone does not reliably establish who wrote each class.
+The following work plan assigns each member a specific, checkable task so the group has a clear commitment for completing and explaining the project. These are **planned commitments, not claims that the work has already been completed**. Each member should confirm their task with the group, implement it, test it, and update this table with the actual result and genuine commit or pull-request link.
 
-| Student name | Student ID | Assigned responsibility | Contribution status |
+| Student name | Student ID | Work commitment / deliverable | Evidence to add when completed |
 |---|---|---|---|
-| **E.A. Chamod Maleesha** | **23DA2-0043** | Array operations and searching algorithms (ArrayOperations.java, SearchingAlgorithms.java) | As reported by the group, no contribution has yet been made by this member. Do not claim implementation until the member completes and can explain their work. |
-| **Nushrath Ahamed** | **23DA2-0439** | Stack and queue (CustomStack.java, CustomQueue.java) | As reported by the group, no contribution has yet been made by this member. Do not claim implementation until the member completes and can explain their work. |
-| **W.H.D.S. Fernando** | **23DA2-0261** | Linked list and/or integration, performance analysis, and testing (CustomLinkedList.java, Main.java, PerformanceAnalyzer.java, AnalyzerSelfTest.java) | Confirm and document only the implementation, integration, and testing work personally completed. |
-| **P.H. Yashodha Amashi** | **23DA2-0346** | Graph representation and traversal (Graph.java) | As reported by the group, no contribution has yet been made by this member. Do not claim implementation until the member completes and can explain their work. |
+| **E.A. Chamod Maleesha** | **23DA2-0043** | Review and take responsibility for `ArrayOperations.java` and `SearchingAlgorithms.java`. Check insert/delete/search edge cases; verify binary search is only run on ascending-sorted data; add or improve at least two meaningful tests and explain the difference between linear and binary search. | Commit or PR from the member's own account; tests run; brief demo of array and search operations. |
+| **Nushrath Ahamed** | **23DA2-0439** | Review and take responsibility for `CustomStack.java` and `CustomQueue.java`. Verify push/pop/peek and enqueue/dequeue/front, including empty structures, queue wrap-around, and capacity growth; add or improve at least two meaningful tests. | Commit or PR from the member's own account; test results; brief demo explaining LIFO and FIFO. |
+| **W.H.D.S. Fernando** | **23DA2-0261** | Coordinate integration and input validation; review `CustomLinkedList.java`, `Main.java`, `PerformanceAnalyzer.java`, and `AnalyzerSelfTest.java`; run the complete compile/test commands, fix integration issues, and keep the README and final demo checklist accurate. | Genuine commits for work actually completed; recorded compile/test results; demo of integration and performance comparison. |
+| **P.H. Yashodha Amashi** | **23DA2-0346** | Review and take responsibility for `Graph.java`. Verify vertex/edge validation, adjacency-list display, vertex search, BFS and DFS start-node behaviour; add or improve at least two meaningful tests and explain the graph traversal complexity. | Commit or PR from the member's own account; test results; brief demo of graph operations and BFS/DFS. |
 
-### Contribution and collaboration note
+### Team-wide completion commitments
 
-The repository contains the required main categories of functionality, but a class being present does not prove which student implemented it. Individual contributions should be updated only after the relevant member has genuinely completed, tested, and understood their assigned work. This README update is a repository documentation change; it is not evidence of commits made by the other students.
+1. Each member should confirm their assigned task in the group chat and tell the team promptly if they cannot complete it, so the plan can be adjusted honestly.
+2. Each member should implement and test their own changes, commit them using their own GitHub account, and be ready to explain the relevant code during the demonstration.
+3. The group should review and merge genuine changes, run `javac -d out src/analyzer/*.java` and `java -cp out analyzer.AnalyzerSelfTest`, and record the real outcomes.
+4. Before submission, replace each planned-task status with a factual summary of what that student actually completed. If a task remains incomplete, state that accurately and notify the lecturer if required.
 
-The assignment requires genuine collaboration evidence. Do not create commits or pull requests that falsely appear to have been authored by someone else. Each member should use their own GitHub account for their own work, or the group should accurately document any assistance and shared work.
+**Contribution status:** These assignments are commitments for the remaining work; they are not proof that a member has contributed already. The presence of a class in the repository does not establish its author. Do not fabricate commits, pull requests, test results, or completed contributions. The repository's commit history should reflect who actually made each change, and any assistance or shared work should be described accurately.
 
 ## 9. Demonstration Video Checklist
 
