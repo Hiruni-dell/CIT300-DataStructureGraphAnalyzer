@@ -83,9 +83,13 @@ public class Main {
         if(d.length==0){System.out.println("Array is empty.");return;}
         System.out.println("Current data: "+Arrays.toString(d));
         int t=readInt("Target: ");
-        int l=SearchingAlgorithms.linearSearch(d,t), b=SearchingAlgorithms.binarySearch(d,t);
+        int l=SearchingAlgorithms.linearSearch(d,t);
+        int[] sorted = SearchingAlgorithms.sortedCopy(d);
+        int b=SearchingAlgorithms.binarySearch(sorted,t);
         System.out.println(l>=0?"Linear: found at original index "+l:"Linear: not found.");
+        System.out.println("Sorted copy for binary search: "+Arrays.toString(sorted));
         System.out.println(b>=0?"Binary: found in sorted copy at index "+b:"Binary: not found.");
+        System.out.println("Note: the binary-search index refers to the sorted copy, not the original array.");
     }
     static void graphMenu() {
         while(true) {
