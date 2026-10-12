@@ -49,6 +49,8 @@ public final class AnalyzerSelfTest {
         int[] values = {9, 2, 7, 2};
         check(SearchingAlgorithms.linearSearch(values, 7) == 2, "linear search");
         int[] sorted = SearchingAlgorithms.sortedCopy(values);
+        check(Arrays.equals(sorted, new int[]{2, 2, 7, 9}), "sorted copy ascending");
+        check(Arrays.equals(values, new int[]{9, 2, 7, 2}), "sorted copy preserves original data");
         check(SearchingAlgorithms.binarySearch(sorted, 7) >= 0, "binary search sorted data");
         check(SearchingAlgorithms.binarySearch(sorted, 100) == -1, "binary search missing");
         check(SearchingAlgorithms.measureLinearSearch(values, 7).getComparisons() == 3, "linear comparisons");
