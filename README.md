@@ -107,23 +107,24 @@ The program demonstrates search comparison counts and elapsed time. Elapsed time
 
 ## 8. Group Members, Responsibilities, and Contributions
 
-The following work plan assigns each member a specific, checkable task so the group has a clear commitment for completing and explaining the project. These are **planned commitments, not claims that the work has already been completed**. Each member should confirm their task with the group, implement it, test it, and update this table with the actual result and genuine commit or pull-request link.
+The following table records the group's task allocation for the project. Each member is assigned a specific area to review, test, and explain. The final contribution summary should be updated to reflect the work each member actually completes before submission.
 
-| Student name | Student ID | Work commitment / deliverable | Evidence to add when completed |
+| Student name | Student ID | Assigned responsibility and expected deliverables | Evidence for the final submission |
 |---|---|---|---|
-| **E.A. Chamod Maleesha** | **23DA2-0043** | Review and take responsibility for `ArrayOperations.java` and `SearchingAlgorithms.java`. Check insert/delete/search edge cases; verify binary search is only run on ascending-sorted data; add or improve at least two meaningful tests and explain the difference between linear and binary search. | Commit or PR from the member's own account; tests run; brief demo of array and search operations. |
-| **Nushrath Ahamed** | **23DA2-0439** | Review and take responsibility for `CustomStack.java` and `CustomQueue.java`. Verify push/pop/peek and enqueue/dequeue/front, including empty structures, queue wrap-around, and capacity growth; add or improve at least two meaningful tests. | Commit or PR from the member's own account; test results; brief demo explaining LIFO and FIFO. |
-| **W.H.D.S. Fernando** | **23DA2-0261** | Coordinate integration and input validation; review `CustomLinkedList.java`, `Main.java`, `PerformanceAnalyzer.java`, and `AnalyzerSelfTest.java`; run the complete compile/test commands, fix integration issues, and keep the README and final demo checklist accurate. | Genuine commits for work actually completed; recorded compile/test results; demo of integration and performance comparison. |
-| **P.H. Yashodha Amashi** | **23DA2-0346** | Review and take responsibility for `Graph.java`. Verify vertex/edge validation, adjacency-list display, vertex search, BFS and DFS start-node behaviour; add or improve at least two meaningful tests and explain the graph traversal complexity. | Commit or PR from the member's own account; test results; brief demo of graph operations and BFS/DFS. |
+| **E.A. Chamod Maleesha** | **23DA2-0043** | **Array operations and searching algorithms:** review `ArrayOperations.java` and `SearchingAlgorithms.java`; check insert, delete, and search cases; confirm binary search uses ascending-sorted data; contribute meaningful tests; explain linear search versus binary search. | Relevant code changes, test results, and a demonstration of array/search functionality, recorded once completed. |
+| **Nushrath Ahamed** | **23DA2-0439** | **Stack and queue:** review `CustomStack.java` and `CustomQueue.java`; check push, pop, peek, enqueue, dequeue, and front operations; verify empty-structure handling, queue wrap-around, and capacity growth; contribute meaningful tests. | Relevant code changes, test results, and a demonstration explaining LIFO and FIFO, recorded once completed. |
+| **W.H.D.S. Fernando** | **23DA2-0261** | **Integration, input validation, and performance:** coordinate integration; review `Main.java`, `CustomLinkedList.java`, `PerformanceAnalyzer.java`, and `AnalyzerSelfTest.java`; run compilation and self-tests, address integration issues, and maintain the README and demonstration checklist. | Relevant code changes, actual compilation/test results, and a demonstration of integration and performance comparison. |
+| **P.H. Yashodha Amashi** | **23DA2-0346** | **Graph operations:** review `Graph.java`; check vertex and edge handling, adjacency-list display, vertex search, BFS, and DFS; contribute meaningful tests and explain graph traversal complexity. | Relevant code changes, test results, and a demonstration of graph operations and BFS/DFS, recorded once completed. |
 
-### Team-wide completion commitments
+### Shared team responsibilities
 
-1. Each member should confirm their assigned task in the group chat and tell the team promptly if they cannot complete it, so the plan can be adjusted honestly.
-2. Each member should implement and test their own changes, commit them using their own GitHub account, and be ready to explain the relevant code during the demonstration.
-3. The group should review and merge genuine changes, run `javac -d out src/analyzer/*.java` and `java -cp out analyzer.AnalyzerSelfTest`, and record the real outcomes.
-4. Before submission, replace each planned-task status with a factual summary of what that student actually completed. If a task remains incomplete, state that accurately and notify the lecturer if required.
+1. Coordinate the assigned tasks and communicate progress or blockers to the group.
+2. Review the integrated application and help resolve issues found during testing.
+3. Run the project compilation and `AnalyzerSelfTest`, then record the actual results.
+4. Ensure each member can explain the area they worked on during the merged demonstration.
+5. Before submission, update this section with a concise summary of the work actually completed by each member and link to genuine commits or pull requests where available.
 
-**Contribution status:** These assignments are commitments for the remaining work; they are not proof that a member has contributed already. The presence of a class in the repository does not establish its author. Do not fabricate commits, pull requests, test results, or completed contributions. The repository's commit history should reflect who actually made each change, and any assistance or shared work should be described accurately.
+**Contribution record:** This table describes the agreed task allocation and expected deliverables. It should not be treated as proof that every task has already been completed. Final contribution statements and evidence must match the work actually performed by each member.
 
 ## 9. Demonstration Video Checklist
 
