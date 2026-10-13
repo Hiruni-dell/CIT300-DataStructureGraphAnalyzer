@@ -13,14 +13,24 @@ public class Main {
     public static void main(String[] args) {
         seed();
         boolean run=true;
-        System.out.println("==============================================");
-        System.out.println(" CIT300 Data Structure and Graph Analyzer");
-        System.out.println(" Graded Practical Assignment 2");
-        System.out.println("==============================================");
+        System.out.println("====================================================");
+        System.out.println("     CIT300 DATA STRUCTURE AND GRAPH ANALYZER");
+        System.out.println("             Graded Practical Assignment 2");
+        System.out.println("====================================================");
         while(run) {
-            System.out.println("\n1 Array  2 Stack  3 Queue  4 Linked List");
-            System.out.println("5 Searching  6 Graph  7 Performance  8 Display All  9 Exit");
-            int c=readInt("Choice: ");
+            System.out.println("\n                    MAIN MENU");
+            System.out.println();
+            System.out.println("  1. Array Operations");
+            System.out.println("  2. Stack Operations");
+            System.out.println("  3. Queue Operations");
+            System.out.println("  4. Linked List Operations");
+            System.out.println("  5. Searching Algorithms");
+            System.out.println("  6. Graph Operations (BFS / DFS)");
+            System.out.println("  7. Performance and Complexity Analysis");
+            System.out.println("  8. Display All Data Structures");
+            System.out.println("  9. Exit");
+            System.out.println("----------------------------------------------------");
+            int c=readInt("Enter your choice: ");
             switch(c) {
                 case 1 -> arrayMenu();
                 case 2 -> stackMenu();
